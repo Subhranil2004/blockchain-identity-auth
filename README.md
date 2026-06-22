@@ -14,6 +14,8 @@ A blockchain-based academic certificate issuance and verification system using E
 
 ## Project Structure
 
+> `project_ppt.pdf` and `project_report.pdf` contain detailed architecture diagrams, flowcharts, and explanations of the system design.
+
 ```text
 blockchain_auth/modern/
 ├── contracts/
@@ -265,3 +267,11 @@ This design detects:
 - **QR Code Workflow**: Each issued certificate generates a QR code containing a verification URL with the credential ID. Students and employers can scan the QR to quickly access verification.
 - **No Zero-Knowledge Proof**: The system uses hash-based proof storage (`proofHash`), not cryptographic zero-knowledge verification. This is a practical trade-off for a local demo system.
 - **Issuer Control**: Only authorized issuers (managed by contract owner via `addIssuer()`) can issue certificates. This prevents credential inflation.
+
+---
+
+## Contributors
+
+- [Pallab Mandal](https://github.com/PallabMandal)
+- [Harshit Kumar](https://github.com/Harshit-Kr01)
+- [Subhranil Nandy](https://github.com/Subhranil2004)
