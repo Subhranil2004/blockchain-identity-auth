@@ -14,7 +14,7 @@ A blockchain-based academic certificate issuance and verification system using E
 
 ## Project Structure
 
-> `project_ppt.pdf` and `project_report.pdf` contain detailed architecture diagrams, flowcharts, and explanations of the system design.
+> `project_ppt.pdf`[[Canva Link]](https://canva.link/3yncwy1epa877lv) and `project_report.pdf` contain detailed architecture diagrams, flowcharts, and explanations of the system design.
 
 ```text
 blockchain_auth/modern/
